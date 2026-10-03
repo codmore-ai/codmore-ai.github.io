@@ -1,0 +1,10 @@
+node_modules
+dist
+
+# 热铁盒自动部署的 API 密钥由 CLI 写入 .env，绝不能进 Git
+.env
+.env.local
+.env.*.local
+
+# 打包给「手动上传」用的产物
+deploy-dist.zip
